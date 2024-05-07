@@ -16,3 +16,4 @@ Este projeto contém um exemplo de código Java para realizar operações relaci
 
 
 ## Planilha de Teste Estático
+![Plano de testes print](https://github.com/renebttg/TesteCaixaBranca/assets/114888521/fd17afc2-c621-473c-a38f-970ec0eb2de6)
