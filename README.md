@@ -17,3 +17,31 @@ Este projeto contém um exemplo de código Java para realizar operações relaci
 
 ## Planilha de Teste Estático
 ![Plano de testes print](https://github.com/renebttg/TesteCaixaBranca/assets/114888521/fd17afc2-c621-473c-a38f-970ec0eb2de6)
+
+## Grafo de Fluxo
+![Grafo de fluxo](https://github.com/renebttg/TesteCaixaBranca/assets/114888521/a2dae9bb-90b3-47fb-a4ee-b05fd3a94f52)
+
+## Cálculo da Complexidade Ciclomática
+V(G) = complexidade ciclomática.
+E = número de arestas no grafo.
+N = número de nós no grafo.
+P = número de componentes conexos (1 para um único grafo).
+
+V(G)=E−N+2P
+
+Número de nós (N): 6 (Ponto 1, Ponto 2, Ponto 3, Ponto 4, Ponto 5, Ponto 6)
+
+Número de arestas (E): 6 (cada ponto está conectado diretamente ao próximo ponto)
+
+Número de componentes conexos (P): 1 (pois o grafo é único e não possui componentes separados)
+
+V(G)=6−6+2(1)=0+2=2
+
+## Caminhos possíveis
+
+1. 1-2-3-4-5-6
+2. 1-2-3-4-5-4-5-6
+3. 1-2-3-4-5-4-5-4-5-6
+4. 1-4-5-6
+5. 1-4-5-4-5-6
+
